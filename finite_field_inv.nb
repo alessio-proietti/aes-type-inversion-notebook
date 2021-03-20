@@ -1,0 +1,129 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      3846,        121]
+NotebookOptionsPosition[      2930,         96]
+NotebookOutlinePosition[      3333,        112]
+CellTagsIndexPosition[      3290,        109]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{"IntegerDigits", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"61", ",", "15", ",", "50"}], "}"}], ",", "2", ",", "6"}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.82524756919798*^9, 3.8252475733346033`*^9}},
+ CellLabel->"In[1]:=",ExpressionUUID->"9eac7df0-3a3d-4266-aae6-25a845a8bfad"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"1", ",", "1", ",", "1", ",", "1", ",", "0", ",", "1"}], "}"}], 
+   ",", 
+   RowBox[{"{", 
+    RowBox[{"0", ",", "0", ",", "1", ",", "1", ",", "1", ",", "1"}], "}"}], 
+   ",", 
+   RowBox[{"{", 
+    RowBox[{"1", ",", "1", ",", "0", ",", "0", ",", "1", ",", "0"}], "}"}]}], 
+  "}"}]], "Output",
+ CellChangeTimes->{3.8252475737686043`*^9},
+ CellLabel->"Out[1]=",ExpressionUUID->"9fd2f35f-339e-4d4f-b383-e82194467995"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{"IntegerDigits", "[", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"61", ",", "15", ",", "50"}], "}"}], ",", "2", ",", "6"}], 
+    "]"}], "//", "Column"}], "\[IndentingNewLine]"}]], "Input",
+ CellChangeTimes->{{3.825247584593493*^9, 3.825247585832384*^9}},
+ CellLabel->"In[2]:=",ExpressionUUID->"87a4f6dc-07c7-4636-883c-588d7b3901b9"],
+
+Cell[BoxData[
+ TagBox[GridBox[{
+    {
+     RowBox[{"{", 
+      RowBox[{"1", ",", "1", ",", "1", ",", "1", ",", "0", ",", "1"}], 
+      "}"}]},
+    {
+     RowBox[{"{", 
+      RowBox[{"0", ",", "0", ",", "1", ",", "1", ",", "1", ",", "1"}], 
+      "}"}]},
+    {
+     RowBox[{"{", 
+      RowBox[{"1", ",", "1", ",", "0", ",", "0", ",", "1", ",", "0"}], "}"}]}
+   },
+   DefaultBaseStyle->"Column",
+   GridBoxAlignment->{"Columns" -> {{Left}}},
+   GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+  "Column"]], "Output",
+ CellChangeTimes->{3.825247586523532*^9},
+ CellLabel->"Out[2]=",ExpressionUUID->"d9ae0fff-1e5a-44f9-a40d-891e05fda913"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"BitXor", "[", 
+   RowBox[{"61", ",", "15"}], "]"}], "\[IndentingNewLine]"}]], "Input",
+ CellChangeTimes->{{3.8252475899580173`*^9, 3.825247596218257*^9}},
+ CellLabel->"In[3]:=",ExpressionUUID->"a47fcb7b-e6d3-410f-a2d9-5ccbf6d97fc9"],
+
+Cell[BoxData["50"], "Output",
+ CellChangeTimes->{3.8252475967324944`*^9},
+ CellLabel->"Out[3]=",ExpressionUUID->"2df9e39a-0742-4cfb-8429-027cf073c147"]
+}, Open  ]]
+},
+WindowSize->{606., 424.5},
+WindowMargins->{{Automatic, -31.5}, {-16.5, Automatic}},
+FrontEndVersion->"12.2 for Linux x86 (64-bit) (December 12, 2020)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"83fc9afa-b53e-468f-a637-36996adcdb28"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 309, 7, 29, "Input",ExpressionUUID->"9eac7df0-3a3d-4266-aae6-25a845a8bfad"],
+Cell[892, 31, 483, 13, 33, "Output",ExpressionUUID->"9fd2f35f-339e-4d4f-b383-e82194467995"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[1412, 49, 382, 9, 51, "Input",ExpressionUUID->"87a4f6dc-07c7-4636-883c-588d7b3901b9"],
+Cell[1797, 60, 659, 19, 68, "Output",ExpressionUUID->"d9ae0fff-1e5a-44f9-a40d-891e05fda913"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2493, 84, 267, 5, 51, "Input",ExpressionUUID->"a47fcb7b-e6d3-410f-a2d9-5ccbf6d97fc9"],
+Cell[2763, 91, 151, 2, 56, "Output",ExpressionUUID->"2df9e39a-0742-4cfb-8429-027cf073c147"]
+}, Open  ]]
+}
+]
+*)
+
